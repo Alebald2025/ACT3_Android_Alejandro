@@ -6,13 +6,45 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView
+    <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
+        android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Button
+            android:id="@+id/activity_11"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Activity 11"
+            android:layout_marginBottom="10dp"
+            android:textStyle="bold"/>
+
+        <Button
+            android:id="@+id/activity_12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Activity 12"
+            android:layout_marginBottom="10dp"
+            android:textStyle="bold"/>
+
+        <Button
+            android:id="@+id/activity_13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Activity 13"
+            android:layout_marginBottom="10dp"
+            android:textStyle="bold"/>
+
+        <Button
+            android:id="@+id/activity_14"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Activity 14"
+            android:textStyle="bold"/>
+    </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

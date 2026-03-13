@@ -18,22 +18,22 @@
 
         <Button
             android:id="@+id/button8"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
             android:layout_marginBottom="10dp"
             android:text="Table Layout" />
 
         <Button
             android:id="@+id/button9"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="50dp"
             android:layout_marginBottom="10dp"
             android:text="Grid Layout" />
 
         <Button
             android:id="@+id/button10"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="50dp"
             android:text="Linear Layout" />
 
     </LinearLayout>
