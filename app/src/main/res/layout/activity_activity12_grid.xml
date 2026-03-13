@@ -7,8 +7,12 @@
     tools:context=".Activity_12_Grid">
 
     <androidx.gridlayout.widget.GridLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
 
         <Button
             android:id="@+id/button13"
@@ -33,10 +37,12 @@
 
         <Button
             android:id="@+id/button11"
-            android:layout_width="wrap_content"
+            android:layout_width="136dp"
             android:layout_height="wrap_content"
             android:text="Button"
             app:layout_column="1"
+            app:layout_columnSpan="3"
+            app:layout_columnWeight="3"
             app:layout_row="1" />
 
         <Button
@@ -45,6 +51,8 @@
             android:layout_height="wrap_content"
             android:text="Button"
             app:layout_column="1"
+            app:layout_columnSpan="2"
+            app:layout_columnWeight="2"
             app:layout_row="2" />
 
         <Button
