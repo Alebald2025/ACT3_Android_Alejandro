@@ -18,19 +18,19 @@ class MainActivity : AppCompatActivity() {
 
         val activity_12 = findViewById<Button>(R.id.activity_12)
         activity_12.setOnClickListener {
-            val intent = Intent(this, Activity_11::class.java)
+            val intent = Intent(this, Activity_12::class.java)
             startActivity(intent)
         }
 
         val activity_13 = findViewById<Button>(R.id.activity_13)
         activity_13.setOnClickListener {
-            val intent = Intent(this, Activity_11::class.java)
+            val intent = Intent(this, Activity_13::class.java)
             startActivity(intent)
         }
 
         val activity_14 = findViewById<Button>(R.id.activity_14)
         activity_14.setOnClickListener {
-            val intent = Intent(this, Activity_11::class.java)
+            val intent = Intent(this, Activity_14::class.java)
             startActivity(intent)
         }
 
