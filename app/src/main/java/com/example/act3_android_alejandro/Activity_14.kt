@@ -131,7 +131,6 @@ class Activity_14 : AppCompatActivity() {
             pantalla = resultado.toString()
         }
 
-        // ==================== BOTÓN LIMPIAR ====================
         val btnClear = findViewById<Button>(R.id.btnClear)
         btnClear.setOnClickListener {
             pantalla = ""
@@ -141,5 +140,4 @@ class Activity_14 : AppCompatActivity() {
             tvDisplay.text = "0"
         }
     }
-
 }

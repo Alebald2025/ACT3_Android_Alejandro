@@ -14,7 +14,6 @@
         android:padding="16dp"
         android:background="#000000">
 
-    <!-- Pantalla de la calculadora -->
         <TextView
             android:id="@+id/tvDisplay"
             android:layout_width="match_parent"
@@ -28,14 +27,12 @@
             android:layout_marginBottom="16dp"
             android:layout_marginTop="90dp"/>
 
-        <!-- Botones en rejilla -->
         <GridLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:columnCount="4"
             android:rowCount="5">
 
-            <!-- Fila 1 -->
             <Button
                 android:id="@+id/btn7"
                 android:layout_width="90dp"
@@ -64,7 +61,6 @@
                 android:layout_marginRight="5dp"
                 android:text="/"  />
 
-            <!-- Fila 2 -->
             <Button
                 android:id="@+id/btn4"
                 android:layout_width="90dp"
@@ -93,7 +89,6 @@
                 android:layout_marginRight="5dp"
                 android:text="x"  />
 
-            <!-- Fila 3 -->
             <Button
                 android:id="@+id/btn1"
                 android:layout_width="90dp"
@@ -122,7 +117,6 @@
                 android:layout_marginRight="5dp"
                 android:text="-"  />
 
-            <!-- Fila 4 -->
             <Button
                 android:id="@+id/btnClear"
                 android:layout_width="90dp"
